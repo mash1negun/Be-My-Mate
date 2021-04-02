@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kXb-Rx-k9f">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+    </dependencies>
+    <scenes>
+        <!--Enter View Controller-->
+        <scene sceneID="9Qu-NP-fkD">
+            <objects>
+                <hostingController storyboardIdentifier="EnterViewController" id="kXb-Rx-k9f" customClass="EnterViewController" customModule="BeMyMate" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6zQ-2F-0OT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="110"/>
+        </scene>
+        <!--Sign Up View Controller-->
+        <scene sceneID="8gz-vA-SIq">
+            <objects>
+                <hostingController storyboardIdentifier="SignUpViewController" id="Bxo-cV-NK1" customClass="SignUpViewController" customModule="BeMyMate" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oWh-uI-bxj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1149" y="365"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="QWj-sd-nMB">
+            <objects>
+                <hostingController storyboardIdentifier="LoginViewController" id="4sy-vg-zoI" customClass="LoginViewController" customModule="BeMyMate" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zQl-TH-tKG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1167" y="-355"/>
+        </scene>
+    </scenes>
+</document>
